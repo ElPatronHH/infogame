@@ -1,0 +1,79 @@
+[{
+    "id": "1",
+    "imagen":"img/AmongUs.jpg",
+    "titulo":"Among Us",
+    "descripcion":""
+},
+{
+    "id": "2",
+    "imagen":"img/CoD.jpg",
+    "titulo":"Call of Duty",
+    "descripcion":""
+},
+{
+    "id": "3",
+    "imagen":"img/FC24.jpg",
+    "titulo":"EA Sports FC 24",
+    "descripcion":""
+},
+{
+    "id": "4",
+    "imagen":"img/Fortnite.jpg",
+    "titulo":"Fortnite",
+    "descripcion":""
+},
+{
+    "id": "5",
+    "imagen":"img/FreeFire.jpg",
+    "titulo":"Free Fire",
+    "descripcion":""
+},
+{
+    "id": "6",
+    "imagen":"img/GTAV.jpg",
+    "titulo":"Grand Theft Auto V",
+    "descripcion":""
+},
+{
+    "id": "7",
+    "imagen":"img/HaloInfinite.jpg",
+    "titulo":"Halo Infinite",
+    "descripcion":""
+},
+{
+    "id": "8",
+    "imagen":"img/MarioKart.jpg",
+    "titulo":"Mario Kart",
+    "descripcion":""
+},
+{
+    "id": "9",
+    "imagen":"img/Minecraft.jpg",
+    "titulo":"Minecraft",
+    "descripcion":""
+},
+{
+    "id": "10",
+    "imagen":"img/PUBG.jpg",
+    "titulo":"Player Unknown Battlegrounds",
+    "descripcion":""
+},
+{
+    "id": "11",
+    "imagen":"img/Roblox.jpg",
+    "titulo":"Roblox",
+    "descripcion":""
+},
+{
+    "id": "12",
+    "imagen":"img/Spiderman.jpg",
+    "titulo":"Marvel's Spider-Man 2",
+    "descripcion":""
+},
+{
+    "id": "12",
+    "imagen":"img/Zelda.jpg",
+    "titulo":"Zelda Tears of the Kingdom",
+    "descripcion":""
+}
+]

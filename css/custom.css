@@ -1,0 +1,135 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 0;
+  text-align: left;
+  background-color: rgb(81, 212, 161);
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+#navBar,
+#anavBar {
+  text-align: left;
+  padding: auto;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+#navBarD,
+#anavBarD {
+  text-align: right;
+  vertical-align: middle;
+  padding: auto;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.centered-info {
+  text-align: justify;
+  border-radius: 18px;
+  background: white;
+  align-items: center;
+  padding: 50px;
+  margin: 18px;
+}
+
+h2 {
+  margin: 30px 0;
+  color: white;
+  font-family: "Arial";
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.subtitulo {
+  background-color: rgb(32, 157, 222);
+  color: white;
+  border-radius: 18px;
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#lista-juegos .row {
+  margin-bottom: 20px;
+}
+
+.card {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #e1e1e1;
+  background: white;
+  border-radius: 20px;
+}
+
+
+.info-card {
+  padding: 10px 20px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.info-card p,
+.card h4 {
+  margin-bottom: 5px;
+}
+
+img {
+  width: 230px;
+  height: 260px;
+  display: block;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  background-attachment: fixed;
+  background-size: 25% auto;
+  background-position: center center;
+  background-repeat: repeat;
+}
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 27, 27, 0.5); /* Ajusta el nivel de saturación reducida cambiando el valor '0.5' (menos es más desaturación) */
+  z-index: -1;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: rgb(81, 212, 161);
+  width: 100%;
+}
+
+.footer {
+  padding: 20px;
+  margin-left: 50px;
+}
+
+a {
+  color: white;
+}
+
