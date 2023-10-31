@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>infoGAME</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <header>
+        <a id="anavBar" href="/index.html">
+            <h1 id="navBar">infoGAME</h1>
+        </a>
+        <a id="anavBarD" href="/que_es_infogame.html">
+            <h1 id="navBarD">¿Qué es infoGame?</h1>
+        </a>
+    </header>
+    <!---DATOS GENERALES-->
+    <div class="centered-info">
+        <div style="display: flex; justify-content: space-between;">
+            <h1 style="margin-top: 40px;" id="gameTitle"></h1>
+            <img id="gameImg" src="img\AmongUs.jpg" style="max-width: 300px; height: auto; margin: 0;" />
+            <img src="img\Clasificaciones\everyone10.jpg" style="max-width: 100px; height: auto; margin: 0;" />
+        </div>
+        <p id="gameDescripcion" style="margin-top: 10px"></p>
+        <!---BENEFICIOS-->
+        <h3 style="text-align: left; margin-top: 20px;">Beneficios para los Jóvenes</h3>
+        <p style="margin-top: 10px;"></p>
+        <!---DESVENTAJAS-->
+        <h3 style="text-align: left; margin-top: 20px;">Detalles a Tener en Cuenta</h3>
+        <p style="margin-top: 10px;"></p>
+    </div>
+
+    <footer>
+        <div class="row">
+            <a href="https://www.tolucatecnm.mx">Instituto Tecnológico de Toluca</a>
+        </div>
+        <div class="row">
+            <a href="#">Investigación</a>
+        </div>
+    </footer>
+
+    <script>
+        var urlParams = new URLSearchParams(window.location.search);
+        var id = parseInt(urlParams.get('id'))-1;
+        let juegosArray = [];
+        const leerJSONJuegos = () => {
+            const url = "juegos.json";
+            fetch(url)
+                .then((respuesta) => respuesta.json())
+                .then((data) => {
+                    juegosArray = data;
+                    mostrarJuego();
+                })
+                .catch((error) => {
+                    console.error("Error al cargar el archivo JSON:", error);
+                });
+        };
+        const mostrarJuego = () => {
+            var gameTitle = document.getElementById("gameTitle");
+            if (juegosArray[id] && juegosArray[id].titulo) {
+                gameTitle.textContent = juegosArray[id].titulo;
+            } else {
+                gameTitle.textContent = "Juego no encontrado";
+            }
+            var gameDescripcion = document.getElementById("gameDescripcion");
+            if (juegosArray[id] && juegosArray[id].titulo) {
+                gameDescripcion.textContent = juegosArray[id].descripcion;
+            } else {
+                gameTitle.textContent = "Juego no encontrado";
+            }
+        };
+        leerJSONJuegos();
+    </script>
+</body>
+</html>

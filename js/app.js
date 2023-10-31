@@ -26,8 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <img src="${juego.imagen}" class="u-full-width">
                     <div class="info-card">
                         <h4>${juego.titulo}</h4>
-                        <p>${juego.descripcion}</p>
-                        <a href="${juego.ruta}" class="button-primary button" data-id="${juego.id}">Aprender Más</a>
+                        <a href="/detallejuego.html?id=${juego.id}" class="button-primary button" data-id="${juego.id}.html">Aprender Más</a>
                     </div>
                 </div>
             </div>
@@ -42,3 +41,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
