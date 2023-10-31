@@ -2,78 +2,91 @@
     "id": "1",
     "imagen":"img/AmongUs.jpg",
     "titulo":"Among Us",
-    "descripcion":""
+    "descripcion":"",
+    "ruta":"amongus"
 },
 {
     "id": "2",
     "imagen":"img/CoD.jpg",
     "titulo":"Call of Duty",
-    "descripcion":""
+    "descripcion":"",
+    "ruta":"cod"
 },
 {
     "id": "3",
     "imagen":"img/FC24.jpg",
     "titulo":"EA Sports FC 24",
-    "descripcion":""
+    "descripcion":"",
+    "ruta":"fc24"
 },
 {
     "id": "4",
     "imagen":"img/Fortnite.jpg",
     "titulo":"Fortnite",
-    "descripcion":""
+    "descripcion":"",
+    "ruta":"fortnite"
 },
 {
     "id": "5",
     "imagen":"img/FreeFire.jpg",
     "titulo":"Free Fire",
-    "descripcion":""
+    "descripcion":"",
+    "ruta":"freefire"
 },
 {
     "id": "6",
     "imagen":"img/GTAV.jpg",
     "titulo":"Grand Theft Auto V",
-    "descripcion":""
+    "descripcion":"",
+    "ruta":"gtav"
 },
 {
     "id": "7",
     "imagen":"img/HaloInfinite.jpg",
     "titulo":"Halo Infinite",
-    "descripcion":""
+    "descripcion":"",
+    "ruta":"haloinfinite"
 },
 {
     "id": "8",
     "imagen":"img/MarioKart.jpg",
     "titulo":"Mario Kart",
-    "descripcion":""
+    "descripcion":"",
+    "ruta":"mariokart"
 },
 {
     "id": "9",
     "imagen":"img/Minecraft.jpg",
     "titulo":"Minecraft",
-    "descripcion":""
+    "descripcion":"",
+    "ruta":"minecraft"
 },
 {
     "id": "10",
     "imagen":"img/PUBG.jpg",
-    "titulo":"Player Unknown Battlegrounds",
-    "descripcion":""
+    "titulo":"Player Unknown's Battlegrounds",
+    "descripcion":"",
+    "ruta":"pubg"
 },
 {
     "id": "11",
     "imagen":"img/Roblox.jpg",
     "titulo":"Roblox",
-    "descripcion":""
+    "descripcion":"",
+    "ruta":"roblox"
 },
 {
     "id": "12",
     "imagen":"img/Spiderman.jpg",
     "titulo":"Marvel's Spider-Man 2",
-    "descripcion":""
+    "descripcion":"",
+    "ruta":"ms2"
 },
 {
     "id": "12",
     "imagen":"img/Zelda.jpg",
     "titulo":"Zelda Tears of the Kingdom",
-    "descripcion":""
+    "descripcion":"",
+    "ruta":"zeldatotk"
 }
 ]

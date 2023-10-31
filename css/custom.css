@@ -78,7 +78,6 @@ h2 {
   border-radius: 20px;
 }
 
-
 .info-card {
   padding: 10px 20px;
 }
@@ -93,11 +92,11 @@ h2 {
 }
 
 img {
-  width: 230px;
-  height: 260px;
   display: block;
   padding: 10px;
   border-radius: 20px;
+  height: 260px;
+  width: 10px;
 }
 
 body {
@@ -133,3 +132,42 @@ a {
   color: white;
 }
 
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+  header, #navBar, #anavBar, #navBarD, #anavBarD, .centered-info, h2, .subtitulo {
+    text-align: center;
+  }
+  .button {
+    font-size: 6px;
+  }  
+  header {
+    padding: 5px 0 0;
+  }
+  #navBar, #anavBar {
+    font-size: 30px;
+  }
+  #navBarD, #anavBarD {
+    font-size: 16px;
+  }
+  .centered-info {
+    padding: 10px;
+    margin: 10px;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  img {
+    width: 100px;
+    height: 150px;
+  }
+}
+.info-card p,
+.card h4 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+/* Añade margen inferior para evitar agrupación de elementos */
+#lista-juegos .row {
+  margin-bottom: 10px;
+}
