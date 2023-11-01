@@ -1,94 +1,95 @@
-[{
+[
+  {
     "id": "1",
-    "imagen":"img/AmongUs.jpg",
-    "titulo":"Among Us",
-    "descripcion":"Among Us es un juego multijugador en línea con clasificación PEGI 7+ que permite que un máximo de 10 jugadores asuman los roles de 'Compañero de tripulación' o 'Impostor'. El objetivo del juego es que los Crewmates identifiquen a los jugadores que son los impostores en el juego. Los impostores del juego tienen que sabotear en secreto las tareas del barco y matar a los miembros de la tripulación antes de que terminen sus tareas.",
-    "beneficios" : "Promueve la comunicación y el trabajo en equipo para lograr el objetivo final de encontrar al impostor. También presenta una emoción para los impostores, que intentan ocultar su identidad. Lo mismo ocurre con los Crewmates, que necesitan limpiar su nombre para que no sean eliminados y tengan que hacer sus tareas mientras su vida está en juego.",
-    "ruta":"amongus"
-},
-{
+    "imagen": "img/AmongUs.jpg",
+    "titulo": "Among Us",
+    "descripcion": "Among Us es un juego multijugador en línea con clasificación PEGI 7+ que permite que un máximo de 10 jugadores asuman los roles de 'Compañero de tripulación' o 'Impostor'. El objetivo del juego es que los Crewmates identifiquen a los jugadores que son los impostores en el juego. Los impostores del juego tienen que sabotear en secreto las tareas del barco y matar a los miembros de la tripulación antes de que terminen sus tareas.",
+    "beneficios": "Promueve la comunicación y el trabajo en equipo para lograr el objetivo final de encontrar al impostor. También presenta una emoción para los impostores, que intentan ocultar su identidad. Lo mismo ocurre con los Crewmates, que necesitan limpiar su nombre para que no sean eliminados y tengan que hacer sus tareas mientras su vida está en juego.",
+    "clasificacion": "img/Clasificaciones/10everyone.jpg"
+  },
+  {
     "id": "2",
-    "imagen":"img/CoD.jpg",
-    "titulo":"Call of Duty",
-    "descripcion":"Call of Duty: Modern Warfare 3 (2023) es un videojuego de disparos en primera persona que es una secuela del juego de 2022 Call of Duty: Modern Warfare 2.",
-    "beneficios" : "Permite desarrollar habilidades cognitivas y de aprendizaje. Estimula el cerebro de los jugadores, mejorando su memoria, su velocidad de procesamiento, su atención, su concentración y su capacidad de resolver problemas. También puede ayudar a aprender nuevos conceptos tácticos, lo que implica mejoras a su parte estratega.",
-    "ruta":"cod"
-},
-{
+    "imagen": "img/CoD.jpg",
+    "titulo": "Call of Duty",
+    "descripcion": "Call of Duty: Modern Warfare 3 (2023) es un videojuego de disparos en primera persona que es una secuela del juego de 2022 Call of Duty: Modern Warfare 2.",
+    "beneficios": "Permite desarrollar habilidades cognitivas y de aprendizaje. Estimula el cerebro de los jugadores, mejorando su memoria, su velocidad de procesamiento, su atención, su concentración y su capacidad de resolver problemas. También puede ayudar a aprender nuevos conceptos tácticos, lo que implica mejoras a su parte estratega.",
+    "clasificacion": "img/Clasificaciones/mature.jpg"
+  },
+  {
     "id": "3",
-    "imagen":"img/FC24.jpg",
-    "titulo":"EA Sports FC 24",
-    "descripcion":"",
-    "ruta":"fc24"
-},
-{
+    "imagen": "img/FC24.jpg",
+    "titulo": "EA Sports FC 24",
+    "descripcion": "",
+    "clasificacion": "img/Clasificaciones/everyone.jpg"
+  },
+  {
     "id": "4",
-    "imagen":"img/Fortnite.jpg",
-    "titulo":"Fortnite",
-    "descripcion":"",
-    "ruta":"fortnite"
-},
-{
+    "imagen": "img/Fortnite.jpg",
+    "titulo": "Fortnite",
+    "descripcion": "",
+    "clasificacion": "img/Clasificaciones/teen.jpg"
+  },
+  {
     "id": "5",
-    "imagen":"img/FreeFire.jpg",
-    "titulo":"Free Fire",
-    "descripcion":"",
-    "ruta":"freefire"
-},
-{
+    "imagen": "img/FreeFire.jpg",
+    "titulo": "Free Fire",
+    "descripcion": "",
+    "clasificacion": "img/Clasificaciones/teen.jpg"
+  },
+  {
     "id": "6",
-    "imagen":"img/GTAV.jpg",
-    "titulo":"Grand Theft Auto V",
-    "descripcion":"",
-    "ruta":"gtav"
-},
-{
+    "imagen": "img/GTAV.jpg",
+    "titulo": "Grand Theft Auto V",
+    "descripcion": "",
+    "clasificacion": "img/Clasificaciones/mature.jpg"
+  },
+  {
     "id": "7",
-    "imagen":"img/HaloInfinite.jpg",
-    "titulo":"Halo Infinite",
-    "descripcion":"",
-    "ruta":"haloinfinite"
-},
-{
+    "imagen": "img/HaloInfinite.jpg",
+    "titulo": "Halo Infinite",
+    "descripcion": "",
+    "clasificacion": "img/Clasificaciones/teen.jpg"
+  },
+  {
     "id": "8",
-    "imagen":"img/MarioKart.jpg",
-    "titulo":"Mario Kart",
-    "descripcion":"",
-    "ruta":"mariokart"
-},
-{
+    "imagen": "img/MarioKart.jpg",
+    "titulo": "Mario Kart",
+    "descripcion": "",
+    "clasificacion": "img/Clasificaciones/10everyone.jpg"
+  },
+  {
     "id": "9",
-    "imagen":"img/Minecraft.jpg",
-    "titulo":"Minecraft",
-    "descripcion":"",
-    "ruta":"minecraft"
-},
-{
+    "imagen": "img/Minecraft.jpg",
+    "titulo": "Minecraft",
+    "descripcion": "",
+    "clasificacion": "img/Clasificaciones/everyone.jpg"
+  },
+  {
     "id": "10",
-    "imagen":"img/PUBG.jpg",
-    "titulo":"PUBG",
-    "descripcion":"",
-    "ruta":"pubg"
-},
-{
+    "imagen": "img/PUBG.jpg",
+    "titulo": "PUBG",
+    "descripcion": "",
+    "clasificacion": "img/Clasificaciones/teen.jpg"
+  },
+  {
     "id": "11",
-    "imagen":"img/Roblox.jpg",
-    "titulo":"Roblox",
-    "descripcion":"",
-    "ruta":"roblox"
-},
-{
+    "imagen": "img/Roblox.jpg",
+    "titulo": "Roblox",
+    "descripcion": "",
+    "clasificacion": "img/Clasificaciones/teen.jpg"
+  },
+  {
     "id": "12",
-    "imagen":"img/Spiderman.jpg",
-    "titulo":"Marvel's Spider-Man 2",
-    "descripcion":"",
-    "ruta":"ms2"
-},
-{
-    "id": "12",
-    "imagen":"img/Zelda.jpg",
-    "titulo":"Zelda Tears of the Kingdom",
-    "descripcion":"",
-    "ruta":"zeldatotk"
-}
+    "imagen": "img/Spiderman.jpg",
+    "titulo": "Marvel's Spider-Man 2",
+    "descripcion": "",
+    "clasificacion": "img/Clasificaciones/teen.jpg"
+  },
+  {
+    "id": "13",
+    "imagen": "img/Zelda.jpg",
+    "titulo": "Zelda Tears of the Kingdom",
+    "descripcion": "",
+    "clasificacion": "img/Clasificaciones/10everyone.jpg"
+  }
 ]

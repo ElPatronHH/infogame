@@ -24,8 +24,8 @@
     <div class="centered-info">
         <div style="display: flex; justify-content: space-between;">
             <h1 style="margin-top: 40px;" id="gameTitle"></h1>
-            <img id="gameImg" src="img\AmongUs.jpg" style="max-width: 300px; height: auto; margin: 0;" />
-            <img src="img\Clasificaciones\everyone10.jpg" style="max-width: 100px; height: auto; margin: 0;" />
+            <img id="gameImg" src="" style="max-width: 200px; height: 250px;" />
+            <img id="rate" src="img\Clasificaciones\everyone10.jpg" style="max-width: 150px; height: 250px;" />
         </div>
         <p id="gameDescripcion" style="margin-top: 10px"></p>
         <!---BENEFICIOS-->
@@ -47,7 +47,7 @@
 
     <script>
         var urlParams = new URLSearchParams(window.location.search);
-        var id = parseInt(urlParams.get('id'))-1;
+        var id = parseInt(urlParams.get('id')) - 1;
         let juegosArray = [];
         const leerJSONJuegos = () => {
             const url = "juegos.json";
@@ -62,25 +62,16 @@
                 });
         };
         const mostrarJuego = () => {
-            var gameTitle = document.getElementById("gameTitle");
             if (juegosArray[id] && juegosArray[id].titulo) {
                 gameTitle.textContent = juegosArray[id].titulo;
-            } else {
-                gameTitle.textContent = "Juego no encontrado";
-            }
-            var gameDescripcion = document.getElementById("gameDescripcion");
-            if (juegosArray[id] && juegosArray[id].titulo) {
                 gameDescripcion.textContent = juegosArray[id].descripcion;
-            } 
-            var gameBeneficios = document.
-            getElementById("gameBeneficios");
-            if (juegosArray[id] && juegosArray[id].titulo) {
                 gameBeneficios.textContent = juegosArray[id].beneficios;
-            } else {
-                gameBeneficios.textContent = "Juego no encontrado";
+                gameImg.src = juegosArray[id].imagen;
+                rate.src = juegosArray[id].clasificacion;
             }
         };
         leerJSONJuegos();
     </script>
 </body>
+
 </html>
