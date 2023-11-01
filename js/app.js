@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
       juegoDiv.className = "three columns";
       juegoDiv.innerHTML = `
                 <div class="card">
-                    <img src="${juego.imagen}" class="u-full-width">
+                    <img src="${juego.imagen}">
                     <div class="info-card">
                         <h4>${juego.titulo}</h4>
                         <a href="./detallejuego.html?id=${juego.id}" class="button-primary button" data-id="${juego.id}.html">Aprender Más</a>
