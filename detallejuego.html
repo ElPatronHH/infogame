@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <a id="anavBar" href="/infogame">
+        <a id="anavBar" href="/">
             <h1 id="navBar">infoGAME</h1>
         </a>
         <a id="anavBarD" href="/que_es_infogame.html">
@@ -30,7 +30,7 @@
         <p id="gameDescripcion" style="margin-top: 10px"></p>
         <!---BENEFICIOS-->
         <h3 style="text-align: left; margin-top: 20px;">Beneficios para los Jóvenes</h3>
-        <p style="margin-top: 10px;"></p>
+        <p id="gameBeneficios" style="margin-top: 10px;"></p>
         <!---DESVENTAJAS-->
         <h3 style="text-align: left; margin-top: 20px;">Detalles a Tener en Cuenta</h3>
         <p style="margin-top: 10px;"></p>
@@ -71,8 +71,13 @@
             var gameDescripcion = document.getElementById("gameDescripcion");
             if (juegosArray[id] && juegosArray[id].titulo) {
                 gameDescripcion.textContent = juegosArray[id].descripcion;
+            } 
+            var gameBeneficios = document.
+            getElementById("gameBeneficios");
+            if (juegosArray[id] && juegosArray[id].titulo) {
+                gameBeneficios.textContent = juegosArray[id].beneficios;
             } else {
-                gameTitle.textContent = "Juego no encontrado";
+                gameBeneficios.textContent = "Juego no encontrado";
             }
         };
         leerJSONJuegos();
