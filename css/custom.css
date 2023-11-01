@@ -26,6 +26,7 @@ header {
   background-color: rgb(81, 212, 161);
   margin-bottom: 20px;
   align-items: center;
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 #navBar, #anavBar, #navBarD, #anavBarD {
@@ -48,6 +49,7 @@ header {
   vertical-align: middle;
   font-size: 20px;
   font-weight: bold;
+  margin-right: 25px;
 }
 
 .centered-info {
@@ -78,15 +80,16 @@ h2 {
   margin: 0 auto;
   margin-bottom: 20px;
   animation-name: desplazar-izquierda;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
   overflow: hidden;
+  border: 5px solid white;
 }
 
 @keyframes desplazar-izquierda {
   from {
-    transform: translateX(100%);
+    transform: translateX(30%);
   }
   to {
     transform: translateX(0);
@@ -125,6 +128,12 @@ img {
   padding: 10px;
   border-radius: 20px;
   height: 260px;
+  width: 200px;
+}
+
+#ittol {
+  text-align: right;
+  height: 200px;
   width: 200px;
 }
 
@@ -194,6 +203,8 @@ footer {
   margin-top: 20px;
   background-color: rgb(81, 212, 161);
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer {
