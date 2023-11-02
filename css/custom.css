@@ -29,7 +29,10 @@ header {
   border-bottom: 2px solid rgb(255, 255, 255);
 }
 
-#navBar, #anavBar, #navBarD, #anavBarD {
+#navBar,
+#anavBar,
+#navBarD,
+#anavBarD {
   text-align: left;
   padding: auto;
   color: white;
@@ -39,12 +42,14 @@ header {
   text-decoration: none;
 }
 
-#navBar, #anavBar {
+#navBar,
+#anavBar {
   font-size: 50px;
   font-weight: bold;
 }
 
-#navBarD, #anavBarD {
+#navBarD,
+#anavBarD {
   text-align: right;
   vertical-align: middle;
   font-size: 20px;
@@ -69,7 +74,32 @@ h2 {
   font-weight: bold;
   letter-spacing: 2px;
 }
+h4 {
+  margin-top: 12px;
+  color: white;
+  font-size: 20px;
+}
+label {
+  color: white;
+  margin-left: 10px;
+}
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.filter-group {
+  display: flex;
+  align-items: center;
+}
 
+.filter-group label {
+  margin-right: 10px;
+}
+
+.filter-group input[type="checkbox"] {
+  margin-right: 5px;
+}
 .subtitulo {
   background-color: rgb(32, 157, 222);
   color: white;
@@ -118,7 +148,8 @@ h2 {
   transform: scale(1.1);
 }
 
-.info-card p, .card h4 {
+.info-card p,
+.card h4 {
   font-size: 15px;
   margin-bottom: 5px;
 }
@@ -139,19 +170,28 @@ img {
 
 /* Estilos para pantallas pequeñas (máx. 768px) */
 @media (max-width: 768px) {
-  header, #navBar, #anavBar, #navBarD, #anavBarD, .centered-info, h2, .subtitulo {
+  header,
+  #navBar,
+  #anavBar,
+  #navBarD,
+  #anavBarD,
+  .centered-info,
+  h2,
+  .subtitulo {
     text-align: center;
   }
   .button {
     font-size: 6px;
-  }  
+  }
   header {
     padding: 5px 0 0;
   }
-  #navBar, #anavBar {
+  #navBar,
+  #anavBar {
     font-size: 30px;
   }
-  #navBarD, #anavBarD {
+  #navBarD,
+  #anavBarD {
     font-size: 16px;
   }
   .centered-info {
@@ -169,16 +209,26 @@ img {
 }
 
 @media (max-width: 665px) {
-  header, #navBar, #anavBar, #navBarD, #anavBarD, .centered-info, h2, .subtitulo {
+  header,
+  #navBar,
+  #anavBar,
+  #navBarD,
+  #anavBarD,
+  .centered-info,
+  h2,
+  .subtitulo {
     text-align: center;
   }
   .button {
     font-size: 6px;
-  }  
+  }
   header {
     padding: 5px 0 0;
   }
-  #navBar, #anavBar, #navBarD, #anavBarD {
+  #navBar,
+  #anavBar,
+  #navBarD,
+  #anavBarD {
     font-size: 10px;
   }
   .centered-info {
