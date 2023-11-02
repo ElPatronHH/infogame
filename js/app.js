@@ -1,4 +1,5 @@
 const listaJuegos = document.querySelector("#lista-juegos");
+var select = document.getElementById("opcionesClasificaciones");
 
 document.addEventListener("DOMContentLoaded", function () {
   let juegosArray = [];
@@ -18,10 +19,13 @@ document.addEventListener("DOMContentLoaded", function () {
   function mostrarJuegos() {
     listaJuegos.innerHTML = "";
     let contador = 0;
+    var clasificacion = select.value;
+    console.log(clasificacion);
     juegosArray.forEach((juego, index) => {
-      const juegoDiv = document.createElement("div");
-      juegoDiv.className = "three columns";
-      juegoDiv.innerHTML = `
+      if (clasificacion == "all"){
+        const juegoDiv = document.createElement("div");
+        juegoDiv.className = "three columns";
+        juegoDiv.innerHTML = `
                 <div class="card">
                     <img src="${juego.imagen}">
                     <div class="info-card">
@@ -31,14 +35,38 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
             </div>
             `;
-      if (contador % 4 === 0) {
-        const rowDiv = document.createElement("div");
-        rowDiv.className = "row";
-        listaJuegos.appendChild(rowDiv);
+        if (contador % 4 === 0) {
+          const rowDiv = document.createElement("div");
+          rowDiv.className = "row";
+          listaJuegos.appendChild(rowDiv);
+        }
+        listaJuegos.lastChild.appendChild(juegoDiv);
+        contador++;
       }
-      listaJuegos.lastChild.appendChild(juegoDiv);
-      contador++;
+      else if (juego.clasificacionID == clasificacion) {
+        const juegoDiv = document.createElement("div");
+        juegoDiv.className = "three columns";
+        juegoDiv.innerHTML = `
+                <div class="card">
+                    <img src="${juego.imagen}">
+                    <div class="info-card">
+                        <h4>${juego.titulo}</h4>
+                        <a href="./detallejuego.html?id=${juego.id}" class="button-primary button" data-id="${juego.id}.html">Aprender Más</a>
+                    </div>
+                </div>
+            </div>
+            `;
+        if (contador % 4 === 0) {
+          const rowDiv = document.createElement("div");
+          rowDiv.className = "row";
+          listaJuegos.appendChild(rowDiv);
+        }
+        listaJuegos.lastChild.appendChild(juegoDiv);
+        contador++;
+      }
     });
   }
+  select.addEventListener("change", function () {
+    mostrarJuegos();
+  });
 });
-

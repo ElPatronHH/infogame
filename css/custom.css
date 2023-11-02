@@ -75,8 +75,7 @@ h2 {
   letter-spacing: 2px;
 }
 h4 {
-  margin-top: 12px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 20px;
 }
 label {
@@ -168,6 +167,21 @@ img {
   width: 200px;
 }
 
+@font-face {
+  font-family: 'Visby';
+  src: url('../utils/Visby Round CF Bold.woff') format('woff');
+}
+
+h1, h2, h3, h4, h5, p, label, a, select {
+  font-family: 'Visby'; 
+}
+
+#navBar,
+#anavBar,
+#navBarD,
+#anavBarD {
+  font-family: "Visby", sans-serif;
+}
 /* Estilos para pantallas pequeñas (máx. 768px) */
 @media (max-width: 768px) {
   header,
