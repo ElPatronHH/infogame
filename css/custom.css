@@ -168,7 +168,7 @@ img {
   padding: 10px;
   border-radius: 20px;
   height: 260px;
-  width: 200px;
+  width: 220px;
 }
 
 #ittol {
@@ -186,6 +186,15 @@ h1, h2, h3, h4, h5, p, label, a, select, ul, li {
   font-family: 'Visby'; 
 }
 
+.platforms {
+  text-align: center;
+}
+.platforms {
+  white-space: nowrap; /* Evita saltos de línea */
+  overflow: hidden; /* Oculta el exceso de texto */
+  text-overflow: ellipsis; /* Reemplaza el exceso de texto con ... */
+  max-width: 200px; /* Establece el ancho máximo en el que se aplicará el truncamiento */
+}
 #navBar,
 #anavBar,
 #navBarD,

@@ -28,6 +28,7 @@
             <img id="rate" src="img\Clasificaciones\everyone10.jpg" style="max-width: 150px; height: 250px;" />
         </div>
         <p id="gameClasificacionText" style="margin-top: 10px"></p>
+        <p id="gamePlataformas" style="margin-top: 10px"></p>
         <p id="gameDescripcion" style="margin-top: 10px"></p>
         <p id="gameMultiplayer" style="margin-top: 10px"></p>
         <!---BENEFICIOS-->
@@ -99,6 +100,7 @@
         const mostrarJuego = () => {
             if (juegosArray[id] && juegosArray[id].titulo) {
                 gameTitle.textContent = juegosArray[id].titulo;
+                gamePlataformas.textContent = juegosArray[id].plataformas
                 gameDescripcion.textContent = juegosArray[id].descripcion;
                 gameClasificacionText.textContent = juegosArray[id].clasificacionText;
                 gameMultiplayer.textContent = juegosArray[id].multiplayer;

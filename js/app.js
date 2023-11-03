@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <img src="${juego.imagen}">
                     <div class="info-card">
                         <h4>${juego.titulo}</h4>
+                        <p class="platforms">${juego.plataformas}</p>
                         <a href="./detallejuego.html?id=${juego.id}" class="button-primary button" data-id="${juego.id}.html">Aprender Más</a>
                     </div>
                 </div>
