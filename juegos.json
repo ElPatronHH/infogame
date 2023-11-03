@@ -3,10 +3,12 @@
     "id": "1",
     "imagen": "img/AmongUs.jpg",
     "titulo": "Among Us",
-    "descripcion": "Among Us es un juego multijugador en línea con clasificación PEGI 7+ que permite que un máximo de 10 jugadores asuman los roles de 'Compañero de tripulación' o 'Impostor'. El objetivo del juego es que los Crewmates identifiquen a los jugadores que son los impostores en el juego. Los impostores del juego tienen que sabotear en secreto las tareas del barco y matar a los miembros de la tripulación antes de que terminen sus tareas.",
+    "descripcion": "Among Us es un juego multijugador en línea que permite que un máximo de 10 jugadores asuman los roles de 'Compañero de tripulación' o 'Impostor'. El objetivo del juego es que los Crewmates identifiquen a los jugadores que son los impostores en el juego. Los impostores del juego tienen que sabotear en secreto las tareas del barco y matar a los miembros de la tripulación antes de que terminen sus tareas.",
     "beneficios": "Promueve la comunicación y el trabajo en equipo para lograr el objetivo final de encontrar al impostor. También presenta una emoción para los impostores, que intentan ocultar su identidad. Lo mismo ocurre con los Crewmates, que necesitan limpiar su nombre para que no sean eliminados y tengan que hacer sus tareas mientras su vida está en juego.",
     "clasificacionID": "10everyone",
-    "clasificacion": "img/Clasificaciones/10everyone.jpg"
+    "clasificacion": "img/Clasificaciones/10everyone.jpg",
+    "clasificacionText": "Clasificación E10+ (Everyone 10 and Older - Para todos, 10 años y más): Adecuado para niños de 10 años en adelante. Puede contener un poco más de violencia de caricaturas, humor o temas leves que los juegos \"E\" normales.",
+    "multiplayer":"Este juego incluye una función en línea, lo que significa que los jugadores pueden interactuar con otras personas. Esto puede ser una experiencia maravillosa para hacer nuevos amigos, mejorar las habilidades sociales y aprender cosas nuevas. Sin embargo, es esencial supervisar estas interacciones, ya que estar en contacto con una variedad de personas también conlleva ciertos riesgos."
   },
   {
     "id": "2",
@@ -15,7 +17,9 @@
     "descripcion": "Call of Duty: Modern Warfare 3 (2023) es un videojuego de disparos en primera persona que es una secuela del juego de 2022 Call of Duty: Modern Warfare 2.",
     "beneficios": "Permite desarrollar habilidades cognitivas y de aprendizaje. Estimula el cerebro de los jugadores, mejorando su memoria, su velocidad de procesamiento, su atención, su concentración y su capacidad de resolver problemas. También puede ayudar a aprender nuevos conceptos tácticos, lo que implica mejoras a su parte estratega.",
     "clasificacionID": "mature",
-    "clasificacion": "img/Clasificaciones/mature.jpg"
+    "clasificacion": "img/Clasificaciones/mature.jpg",
+    "clasificacionText": "Clasificación M (Mature - Maduros): Recomendado para jugadores mayores de 17 años. Puede contener violencia intensa, lenguaje fuerte, contenido sexual y/o uso de drogas.",
+    "multiplayer":"Este juego incluye una función en línea, lo que significa que los jugadores pueden interactuar con otras personas. Esto puede ser una experiencia maravillosa para hacer nuevos amigos, mejorar las habilidades sociales y aprender cosas nuevas. Sin embargo, es esencial supervisar estas interacciones, ya que estar en contacto con una variedad de personas también conlleva ciertos riesgos."
   },
   {
     "id": "3",
@@ -23,7 +27,9 @@
     "titulo": "EA Sports FC 24",
     "descripcion": "EA Sports FC 24 es un videojuego de fútbol, desarrollado por EA, y publicado por EA Sports. Este juego marca la primera entrega de la serie EA Sports FC, tras la conclusión de la asociación de EA con FIFA.",
     "clasificacionID": "everyone",
-    "clasificacion": "img/Clasificaciones/everyone.jpg"
+    "clasificacion": "img/Clasificaciones/everyone.jpg",
+    "clasificacionText": "Clasificación E (Everyone - Para todos): Apropiado para jugadores de todas las edades. Estos juegos pueden contener una mínima violencia de caricaturas y temas leves, pero en general, son seguros para la audiencia general.",
+    "multiplayer":"Este juego incluye una función en línea, lo que significa que los jugadores pueden interactuar con otras personas. Esto puede ser una experiencia maravillosa para hacer nuevos amigos, mejorar las habilidades sociales y aprender cosas nuevas. Sin embargo, es esencial supervisar estas interacciones, ya que estar en contacto con una variedad de personas también conlleva ciertos riesgos."
   },
   {
     "id": "4",
@@ -31,7 +37,9 @@
     "titulo": "Fortnite",
     "descripcion": "Fortnite se destaca por su estilo de juego de \"Battle Royale\", en el que hasta 100 jugadores compiten en una isla virtual hasta que solo queda un ganador. Los jugadores aterrizan en la isla sin armas ni equipo y deben buscar recursos, armas y objetos mientras luchan contra otros jugadores. El área de juego se reduce gradualmente con el tiempo, lo que obliga a los jugadores a enfrentarse entre sí en un espacio cada vez más pequeño.",
     "clasificacionID": "teen",
-    "clasificacion": "img/Clasificaciones/teen.jpg"
+    "clasificacion": "img/Clasificaciones/teen.jpg",
+    "clasificacionText": "Clasificación T (Teen - Adolescentes): Diseñado para adolescentes. Puede incluir violencia moderada, lenguaje moderado, temas sugerentes y humor crudo.",
+    "multiplayer":"Este juego incluye una función en línea, lo que significa que los jugadores pueden interactuar con otras personas. Esto puede ser una experiencia maravillosa para hacer nuevos amigos, mejorar las habilidades sociales y aprender cosas nuevas. Sin embargo, es esencial supervisar estas interacciones, ya que estar en contacto con una variedad de personas también conlleva ciertos riesgos."
   },
   {
     "id": "5",
@@ -39,7 +47,9 @@
     "titulo": "Free Fire",
     "descripcion": "Free Fire es un juego en línea de disparos y supervivencia disponible en dispositivos móviles. En el juego, los jugadores son lanzados a una isla donde compiten en partidas de batalla real. El objetivo principal es ser el último jugador o equipo en pie. Los jugadores pueden buscar armas, equipo y recursos mientras se enfrentan a otros participantes, y la zona de juego se reduce gradualmente para forzar encuentros y aumentar la intensidad de las partidas. El juego se destaca por su estilo de juego rápido y frenético, con partidas que suelen durar alrededor de 10 minutos, lo que lo hace muy accesible para sesiones de juego cortas en dispositivos móviles.",
     "clasificacionID": "teen",
-    "clasificacion": "img/Clasificaciones/teen.jpg"
+    "clasificacion": "img/Clasificaciones/teen.jpg",
+    "clasificacionText": "Clasificación T (Teen - Adolescentes): Diseñado para adolescentes. Puede incluir violencia moderada, lenguaje moderado, temas sugerentes y humor crudo.",
+    "multiplayer":"Este juego incluye una función en línea, lo que significa que los jugadores pueden interactuar con otras personas. Esto puede ser una experiencia maravillosa para hacer nuevos amigos, mejorar las habilidades sociales y aprender cosas nuevas. Sin embargo, es esencial supervisar estas interacciones, ya que estar en contacto con una variedad de personas también conlleva ciertos riesgos."
   },
   {
     "id": "6",
@@ -47,7 +57,9 @@
     "titulo": "Grand Theft Auto V",
     "descripcion": " GTA V es un juego de acción y aventuras disponible en varias plataformas, con una historia que se desarrolla en el ficticio estado de San Andreas y permite a los jugadores asumir el papel de tres personajes principales: Michael, Franklin y Trevor. El juego se centra en actividades delictivas y ofrece un mundo abierto para explorar.",
     "clasificacionID": "mature",
-    "clasificacion": "img/Clasificaciones/mature.jpg"
+    "clasificacion": "img/Clasificaciones/mature.jpg",
+    "clasificacionText": "Clasificación M (Mature - Maduros): Recomendado para jugadores mayores de 17 años. Puede contener violencia intensa, lenguaje fuerte, contenido sexual y/o uso de drogas.",
+    "multiplayer":"Este juego incluye una función en línea, lo que significa que los jugadores pueden interactuar con otras personas. Esto puede ser una experiencia maravillosa para hacer nuevos amigos, mejorar las habilidades sociales y aprender cosas nuevas. Sin embargo, es esencial supervisar estas interacciones, ya que estar en contacto con una variedad de personas también conlleva ciertos riesgos."
   },
   {
     "id": "7",
@@ -55,7 +67,9 @@
     "titulo": "Halo Infinite",
     "descripcion": "Halo Infinite es un videojuego de disparos en primera persona desarrollado por 343 Industries y publicado por Xbox Game Studios. El juego forma parte de la exitosa franquicia de videojuegos Halo, que ha sido una parte fundamental de la plataforma Xbox de Microsoft. Halo Infinite se encuentra disponible en las plataformas Xbox y PC. La historia de Halo Infinite continúa la narrativa de la serie y sigue al icónico personaje Master Chief en su lucha contra una amenaza alienígena conocida como los Covenant y otros enemigos. El juego promete llevar a la serie de vuelta a sus raíces con un enfoque en la exploración, un mundo más abierto y una jugabilidad que recuerda a los primeros títulos de la franquicia.",
     "clasificacionID": "teen",
-    "clasificacion": "img/Clasificaciones/teen.jpg"
+    "clasificacion": "img/Clasificaciones/teen.jpg",
+    "clasificacionText": "Clasificación T (Teen - Adolescentes): Diseñado para adolescentes. Puede incluir violencia moderada, lenguaje moderado, temas sugerentes y humor crudo.",
+    "multiplayer":"Este juego incluye una función en línea, lo que significa que los jugadores pueden interactuar con otras personas. Esto puede ser una experiencia maravillosa para hacer nuevos amigos, mejorar las habilidades sociales y aprender cosas nuevas. Sin embargo, es esencial supervisar estas interacciones, ya que estar en contacto con una variedad de personas también conlleva ciertos riesgos."
   },
   {
     "id": "8",
@@ -63,7 +77,9 @@
     "titulo": "Mario Kart",
     "descripcion": "En Mario Kart 8 Deluxe, los jugadores eligen a un personaje del universo de Mario, como Mario, Luigi, Peach, Bowser y muchos otros, y compiten en emocionantes carreras de karts en una variedad de pistas temáticas de Mario. El juego se destaca por su jugabilidad divertida y frenética, que incluye la posibilidad de utilizar objetos y potenciadores para ganar ventaja en la carrera y obstaculizar a los oponentes.",
     "clasificacionID": "10everyone",
-    "clasificacion": "img/Clasificaciones/10everyone.jpg"
+    "clasificacion": "img/Clasificaciones/10everyone.jpg",
+    "clasificacionText": "Clasificación E10+ (Everyone 10 and Older - Para todos, 10 años y más): Adecuado para niños de 10 años en adelante. Puede contener un poco más de violencia de caricaturas, humor o temas leves que los juegos \"E\" normales.",
+    "multiplayer":"Este juego incluye una función en línea, lo que significa que los jugadores pueden interactuar con otras personas. Esto puede ser una experiencia maravillosa para hacer nuevos amigos, mejorar las habilidades sociales y aprender cosas nuevas. Sin embargo, es esencial supervisar estas interacciones, ya que estar en contacto con una variedad de personas también conlleva ciertos riesgos."
   },
   {
     "id": "9",
@@ -71,7 +87,9 @@
     "titulo": "Minecraft",
     "descripcion": "Minecraft es un popular videojuego de construcción y exploración desarrollado por Mojang Studios. Es conocido por su mundo abierto y su estilo de juego sandbox, que permite a los jugadores explorar, construir y sobrevivir en un vasto mundo generado de forma procedimental.",
     "clasificacionID": "everyone",
-    "clasificacion": "img/Clasificaciones/everyone.jpg"
+    "clasificacion": "img/Clasificaciones/everyone.jpg",
+    "clasificacionText": "Clasificación E (Everyone - Para todos): Apropiado para jugadores de todas las edades. Estos juegos pueden contener una mínima violencia de caricaturas y temas leves, pero en general, son seguros para la audiencia general.",
+    "multiplayer":"Este juego incluye una función en línea, lo que significa que los jugadores pueden interactuar con otras personas. Esto puede ser una experiencia maravillosa para hacer nuevos amigos, mejorar las habilidades sociales y aprender cosas nuevas. Sin embargo, es esencial supervisar estas interacciones, ya que estar en contacto con una variedad de personas también conlleva ciertos riesgos."
   },
   {
     "id": "10",
@@ -79,7 +97,9 @@
     "titulo": "PUBG",
     "descripcion": "PlayerUnknown's Battlegrounds (PUBG) es un popular videojuego de disparos en línea. PUBG es conocido por popularizar el género de los \"Battle Royale\". En este tipo de juegos, un gran número de jugadores aterrizan en una isla y compiten entre sí hasta que solo queda un superviviente o un equipo en pie. Los jugadores comienzan sin armas ni equipo y deben buscar recursos, armas y equipo mientras se enfrentan a otros jugadores. El área de juego se va reduciendo con el tiempo, forzando encuentros y aumentando la intensidad de la partida.",
     "clasificacionID": "teen",
-    "clasificacion": "img/Clasificaciones/teen.jpg"
+    "clasificacion": "img/Clasificaciones/teen.jpg",
+    "clasificacionText": "Clasificación T (Teen - Adolescentes): Diseñado para adolescentes. Puede incluir violencia moderada, lenguaje moderado, temas sugerentes y humor crudo.",
+    "multiplayer":"Este juego incluye una función en línea, lo que significa que los jugadores pueden interactuar con otras personas. Esto puede ser una experiencia maravillosa para hacer nuevos amigos, mejorar las habilidades sociales y aprender cosas nuevas. Sin embargo, es esencial supervisar estas interacciones, ya que estar en contacto con una variedad de personas también conlleva ciertos riesgos."
   },
   {
     "id": "11",
@@ -87,7 +107,9 @@
     "titulo": "Roblox",
     "descripcion": "Roblox es una plataforma de juegos en línea y un ecosistema virtual que permite a los usuarios crear, jugar y compartir juegos y experiencias interactivas. A diferencia de muchos juegos tradicionales, Roblox no se centra en un solo título, sino que ofrece a los usuarios una amplia gama de juegos y mundos creados por otros usuarios. Está disponible en varias plataformas, incluyendo PC, dispositivos móviles y consolas. Los usuarios de Roblox pueden crear sus propios juegos utilizando la plataforma de desarrollo de Roblox, que utiliza el lenguaje de programación Lua. ",
     "clasificacionID": "teen",
-    "clasificacion": "img/Clasificaciones/teen.jpg"
+    "clasificacion": "img/Clasificaciones/teen.jpg",
+    "clasificacionText": "Clasificación T (Teen - Adolescentes): Diseñado para adolescentes. Puede incluir violencia moderada, lenguaje moderado, temas sugerentes y humor crudo.",
+    "multiplayer":"Este juego incluye una función en línea, lo que significa que los jugadores pueden interactuar con otras personas. Esto puede ser una experiencia maravillosa para hacer nuevos amigos, mejorar las habilidades sociales y aprender cosas nuevas. Sin embargo, es esencial supervisar estas interacciones, ya que estar en contacto con una variedad de personas también conlleva ciertos riesgos."
   },
   {
     "id": "12",
@@ -95,7 +117,9 @@
     "titulo": "Marvel's Spider-Man 2",
     "descripcion": "Marvel's Spider-Man 2 es un videojuego de acción y aventuras que sigue las peripecias de los icónicos superhéroes Spider-Man, Peter Parker y Miles Morales. En esta nueva entrega de la franquicia, los jugadores se adentrarán en la ciudad de Nueva York del universo Marvel, utilizando las habilidades de telaraña para desplazarse por la ciudad de manera ágil y emocionante. Una característica destacada es la posibilidad de cambiar rápidamente entre Peter Parker y Miles Morales, lo que permitirá a los jugadores experimentar diferentes historias y aprovechar nuevos poderes en su lucha contra el villano Venom.",
     "clasificacionID": "teen",
-    "clasificacion": "img/Clasificaciones/teen.jpg"
+    "clasificacion": "img/Clasificaciones/teen.jpg",
+    "clasificacionText": "Clasificación T (Teen - Adolescentes): Diseñado para adolescentes. Puede incluir violencia moderada, lenguaje moderado, temas sugerentes y humor crudo.",
+    "multiplayer":"Este juego no cuenta con una opción en línea, lo que significa que los jugadores no pueden interactuar con otros en el juego a través de internet. Esto puede ser una característica tranquilizadora para los padres, ya que elimina los posibles riesgos asociados con las interacciones en línea, como conocer personas desconocidas."
   },
   {
     "id": "13",
@@ -103,6 +127,8 @@
     "titulo": "Zelda Tears of the Kingdom",
     "descripcion": "Es un videojuego de acción-aventura de 2023 de la serie The Legend of Zelda, desarrollado por la filial Nintendo EPD en colaboración con Monolith Soft y publicado por Nintendo para la consola Nintendo Switch.",
     "clasificacionID": "10everyone",
-    "clasificacion": "img/Clasificaciones/10everyone.jpg"
+    "clasificacion": "img/Clasificaciones/10everyone.jpg",
+    "clasificacionText": "Clasificación E10+ (Everyone 10 and Older - Para todos, 10 años y más): Adecuado para niños de 10 años en adelante. Puede contener un poco más de violencia de caricaturas, humor o temas leves que los juegos \"E\" normales.",
+    "multiplayer":"Este juego no cuenta con una opción en línea, lo que significa que los jugadores no pueden interactuar con otros en el juego a través de internet. Esto puede ser una característica tranquilizadora para los padres, ya que elimina los posibles riesgos asociados con las interacciones en línea, como conocer personas desconocidas."
   }
 ]

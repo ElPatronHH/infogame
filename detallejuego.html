@@ -27,13 +27,24 @@
             <img id="gameImg" src="" style="max-width: 200px; height: 250px;" />
             <img id="rate" src="img\Clasificaciones\everyone10.jpg" style="max-width: 150px; height: 250px;" />
         </div>
+        <p id="gameClasificacionText" style="margin-top: 10px"></p>
         <p id="gameDescripcion" style="margin-top: 10px"></p>
+        <p id="gameMultiplayer" style="margin-top: 10px"></p>
         <!---BENEFICIOS-->
         <h3 style="text-align: left; margin-top: 20px;">Beneficios para los Jóvenes</h3>
         <p id="gameBeneficios" style="margin-top: 10px;"></p>
         <!---DESVENTAJAS-->
         <h3 style="text-align: left; margin-top: 20px;">Detalles a Tener en Cuenta</h3>
-        <p style="margin-top: 10px;"></p>
+        <p style="margin-top: 10px;">La adicción a los videojuegos, según la OMS (Organización Mundial de la Salud), no se define por el número de horas que se juega a los videojuegos al día o a la semana, como muchos padres se preguntan, sino que se define por las consecuencias y repercusión que tiene en las distintas áreas de funcionamiento de la persona.</p>
+        <p>Las personas con adicción a los videojuegos presentan los siguientes síntomas:</p>
+        <ul>
+          <li>Dificultad para evitar jugar cuando tienen obligaciones que atender.</li>
+          <li>Dificultad para terminar el juego tras un tiempo considerable.</li>
+          <li>Ansiedad y ansia por jugar.</li>
+          <li>Síntomas de abstinencia cuando llevan mucho tiempo sin jugar.</li>
+          <li>Abandono gradual de otras actividades (hasta el punto de llegar a ausentarse de su puesto de trabajo, no acudir a la escuela o perder relaciones sentimentales por anteponer el videojuego a todo lo demás).</li>
+        </ul>
+        <p>Es en ese momento cuando se recomienda acudir a un especialista, cuando un videojuego deja de aportar y comienza a tener un impacto negativo.</p>
     </div>
 
     <footer>
@@ -89,6 +100,8 @@
             if (juegosArray[id] && juegosArray[id].titulo) {
                 gameTitle.textContent = juegosArray[id].titulo;
                 gameDescripcion.textContent = juegosArray[id].descripcion;
+                gameClasificacionText.textContent = juegosArray[id].clasificacionText;
+                gameMultiplayer.textContent = juegosArray[id].multiplayer;
                 gameBeneficios.textContent = juegosArray[id].beneficios;
                 gameImg.src = juegosArray[id].imagen;
                 rate.src = juegosArray[id].clasificacion;
