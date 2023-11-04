@@ -179,7 +179,7 @@ img {
 
 @font-face {
   font-family: 'Visby';
-  src: url('../utils/Visby Round CF Bold.woff') format('woff');
+  src: url('../fonts/Visby Round CF Bold.woff') format('woff');
 }
 
 h1, h2, h3, h4, h5, p, label, a, select, ul, li {
